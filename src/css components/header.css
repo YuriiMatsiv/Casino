@@ -1,0 +1,130 @@
+
+header {
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: var(--darcBlue);
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 2px 0 rgb(57, 72, 99);
+}
+
+.logo {
+    margin-left: 45px;
+}
+
+.menu {
+    height: 100%;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+}
+
+.menu__item {
+    list-style: none;
+    padding: 0 24px;
+    height: 90px;
+    display: block;
+    border-top: 3px solid rgb(23, 35, 56); /* for hover*/
+    line-height: 85px;
+}
+
+.menu__separator {
+    display: block;
+    height: 65px;
+    width: 2px;
+    background-color: rgb(30, 45, 71);
+}
+
+
+.menu__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(191, 194, 200);
+    font-size: 16px;
+}
+
+
+.menu__item:hover {
+    border-top: 3px solid var(--redLine);
+    transition-duration: 0.5s;
+}
+
+.pureMenu {
+    display: none;
+}
+
+.pureMenu__item {
+    list-style: none;
+}
+
+.pureMenu__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: darkgrey;
+    font-size: 16px;
+}
+
+/*------------under */
+.under__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(191, 194, 200);
+    font-size: 13px;
+}
+
+.under__item {
+    list-style: none;
+    padding: 0 15px;
+    border-top: 3px solid rgb(43, 54, 72); /* for hover*/
+    line-height: 33px;
+}
+
+.under__item:hover {
+    border-top: 3px solid var(--redLine);
+    transition-duration: 0.5s;
+}
+
+.under__list {
+    display: flex;
+    text-align: center;
+    margin: 0;
+}
+
+.under {
+    display: none;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(43, 54, 72);
+    position: absolute;
+    top: 90px;
+    left: 95px;
+    transition-duration: 1s;
+}
+
+.burger {
+    display: none;
+}
+
+.burger__line1, .burger__line2, .burger__line3 {
+    width: 20px;
+    height: 3px;
+    background-color: red;
+    margin: 3px;
+}
+
+
+
+

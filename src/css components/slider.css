@@ -1,0 +1,96 @@
+
+.slider {
+    width: 100%;
+height: 380px;
+}
+.slidePage1 {
+    background-image: linear-gradient(to left, rgba(88, 90, 89, 0.1), rgba(8, 30, 54, 0.9)),
+    url("../image/sl-1.jpg");
+}
+
+.slidePage2 {
+    background-image: linear-gradient(to left, rgba(88, 90, 89, 0.1), rgba(8, 30, 54, 0.9)),
+    url("../image/sl-2.jpg");
+    display: none;
+}
+
+.slidePage3 {
+    background-image: linear-gradient(to left, rgba(88, 90, 89, 0.1), rgba(8, 30, 54, 0.9)),
+    url("../image/sl-3.jpg");
+    display: none;
+}
+
+.slidePage4 {
+    background-image: linear-gradient(to left, rgba(88, 90, 89, 0.1), rgba(8, 30, 54, 0.9)),
+    url("../image/sl-4.jpg");
+    display: none;
+}
+.slidePage1, .slidePage2, .slidePage3, .slidePage4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    padding-left: 25px;
+    padding-top: 15px;
+    border-radius: 4px;
+}
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.myDots {
+    text-align: center;
+    margin-top: -50px;
+
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.infoButton {
+
+}
+
+.slidePage__title {
+    color: white;
+    font-size: 44px;
+    margin: 0;
+}
+
+.slidePage__text {
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.slidePage__button {
+    text-decoration: none;
+}
+
+.slidePage__button--span {
+    padding: 15px 40px;
+    background-color: rgb(0,194,95);
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0 2px 3px rgb(0,194,95);
+    transition-duration: 0.7s;
+}
+
+.slidePage__button:hover {
+    text-decoration: underline;
+    color: white;
+    transition-duration: 0.7s;
+}
+.slidePage__button--span:hover {
+    background-color: rgb(6,129,66);
+    box-shadow: 0 2px 3px rgb(6,129,66);
+    transition-duration: 0.7s;
+}

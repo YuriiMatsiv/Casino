@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Игровые автоматы, онлайн игровые автоматы, лучшие казино клубы, бонусы казино</title>
     <link rel="icon" href="image/chery.png">
-    <link href="main.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -28,7 +28,20 @@
                 <li class="menu__item"><a href="#" class="menu__link">Платежные системы</a></li>
                 <li class="menu__separator"></li>
             </ul>
+            <ul class="pureMenu">
+                <li class="pureMenu__item"><a href="#" class="pureMenu__link">Казино</a></li>
+                <li class="pureMenu__item"><a href="#" class="pureMenu__link">Игры</a></li>
+                <li class="pureMenu__item"><a href="#" class="pureMenu__link">Бонуси</a></li>
+                <li class="pureMenu__item"><a href="#" class="pureMenu__link">Производители</a></li>
+                <li class="pureMenu__item"><a href="#" class="pureMenu__link">Платежные системы</a></li>
+            </ul>
         </div>
+        <div class="burger">
+            <div class="burger__line1 burger-color"></div>
+            <div class="burger__line2 burger-color"></div>
+            <div class="burger__line3 burger-color"></div>
+        </div>
+
         <div class="under">
             <ul class="under__list">
                 <li class="under__item"><a href="#" class="under__link">Видеопокер</a></li>
@@ -39,6 +52,8 @@
                 <li class="under__item"><a href="#" class="under__link">Рулетка</a></li>
             </ul>
         </div>
+    </div>
+
     </div>
 
 </header>
@@ -62,27 +77,155 @@
         <div class="main">
             <div class="mainInfo">
                 <div class="slider">
-                    <div class="slidePage1">
+                    <div class="slidePage1 mySlider ">
                         <h1 class="slidePage__title"><span>1000</span> гривен <br>от казино Кинг </h1>
-                        <p class="slidePage__text">Первое украинское онлайн казино предлагает <br> бездепозитный бонус 1000 гривен для граждан
+                        <p class="slidePage__text">Первое украинское онлайн казино предлагает <br> бездепозитный бонус
+                            1000 гривен для граждан
                             Украины</p>
                         <a href="#" class="slidePage__button"><span class="slidePage__button--span">Читать обзор</span></a>
-<!--                        <img class="slidePage__img" src="image/sl-1.jpg" alt="casino photo">-->
-                    </div>
-                    <div class="slidePage2">
 
                     </div>
-                    <div class="slidePage3"></div>
-                    <div class="slidePage4"></div>
+                    <div class="slidePage2 mySlider">
+                        <h1 class="slidePage__title">Бездеп $20 <br> от казино NetGame </h1>
+                        <p class="slidePage__text">Шикарный бонус от самого честного казино СНГ - NetGameCasino<br>
+                            Удобный скачиваемый клиент для Windows и Android</p>
+                        <a href="#" class="slidePage__button"><span class="slidePage__button--span">Читать обзор</span></a>
+                    </div>
+                    <div class="slidePage3 mySlider">
+                        <h1 class="slidePage__title"><span>1000</span> гривен <br>от казино Кинг </h1>
+                        <p class="slidePage__text">Первое украинское онлайн казино предлагает <br> бездепозитный бонус
+                            1000 гривен для граждан
+                            Украины</p>
+                        <a href="#" class="slidePage__button"><span class="slidePage__button--span">Читать обзор</span></a>
+                    </div>
+                    <div class="slidePage4 mySlider">
+                        <h1 class="slidePage__title">Бездеп $20 <br> от казино NetGame </h1>
+                        <p class="slidePage__text">Шикарный бонус от самого честного казино СНГ - NetGameCasino<br>
+                            Удобный скачиваемый клиент для Windows и Android</p>
+                        <a href="#" class="slidePage__button"><span class="slidePage__button--span">Читать обзор</span></a>
+                    </div>
+                    <br>
+                    <div class="myDots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
 
+                </div>
+                <div class="chapterBlock">
+                    <img class="chapterBlock__img" src="image/roulette.png" alt="roulette icon">
+                    <div class="chapterBlock__info">
+                        <h2 class="chapterBlock__text">ТОП КАЗИНО</h2>
+                        <a class="chapterBlock__link" href="#">Все КАЗИНО ></a>
+                    </div>
+                </div>
+                <div class="bigCard">
+                    <div class="cardBlock">
+                        <div class="card">
+                            <div class="cardBlock__header">
+                                <img class="cardBlock__image" src="image/vulkan_original.png" alt="logo vulkan casino">
+                            </div>
+                            <div class="cardBlock__main"></div>
+                            <div class="cardBlock__footer">
+                                <div class="cardBlock__leftBtn"><a class="cardBlock__link" href="#">Прейти в казино</a>
+                                </div>
+                                <div class="cardBlock__rightBtn"><a class="cardBlock__link" href="#">Обзор казино</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cardBlock__header">
+                                <img class="cardBlock__image" src="image/vulkan_original.png" alt="logo vulkan casino">
+                            </div>
+                            <div class="cardBlock__main"></div>
+                            <div class="cardBlock__footer">
+                                <div class="cardBlock__leftBtn"><a class="cardBlock__link" href="#">Прейти в казино</a>
+                                </div>
+                                <div class="cardBlock__rightBtn"><a class="cardBlock__link" href="#">Обзор казино</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cardBlock__header">
+                                <img class="cardBlock__image" src="image/vulkan_original.png" alt="logo vulkan casino">
+                            </div>
+                            <div class="cardBlock__main"></div>
+                            <div class="cardBlock__footer">
+                                <div class="cardBlock__leftBtn"><a class="cardBlock__link" href="#">Прейти в казино</a>
+                                </div>
+                                <div class="cardBlock__rightBtn"><a class="cardBlock__link" href="#">Обзор казино</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cardBlock__header">
+                                <img class="cardBlock__image" src="image/vulkan_original.png" alt="logo vulkan casino">
+                            </div>
+                            <div class="cardBlock__main"></div>
+                            <div class="cardBlock__footer">
+                                <div class="cardBlock__leftBtn"><a class="cardBlock__link" href="#">Прейти в казино</a>
+                                </div>
+                                <div class="cardBlock__rightBtn"><a class="cardBlock__link" href="#">Обзор казино</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chapterBlock">
+                    <img class="chapterBlock__img" src="image/roulette.png" alt="roulette icon">
+                    <div class="chapterBlock__info">
+                        <h2 class="chapterBlock__text">Бонусы</h2>
+                        <a class="chapterBlock__link" href="#">Все бонусы ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="optionalInfo">
+                <div class="bord">
+                    <img class="bord__image" src="image/Privetstvennyj.gif" alt="advertising">
+                </div>
+                <div class="newInfo">
+                    <img class="newInfo__image" src="image/new.jpg" alt="icon">
+                    <div>
+                        <h3 class="newInfo__title">НОВЫЕ КАЗИНО</h3>
+                        <hr width="200">
+                    </div>
+                </div>
+                <div class="littleCard__wrapper">
+                    <div class="littleCard">
+                        <img class="littleCard__image" src="image/game.jpg" alt="icon">
+                        <a class="littleCard__link" href="#"><h3 class="littleCard__title">PHARAON BET</h3></a>
+                    </div>
+                    <div class="littleCard">
+                        <img class="littleCard__image" src="image/game2.gif" alt="icon">
+                        <a class="littleCard__link" href="#"><h3 class="littleCard__title">Фурор</h3></a>
+                    </div>
+                    <div class="littleCard">
+                        <img class="littleCard__image" src="image/game3.jpg" alt="icon">
+                        <a class="littleCard__link" href="#"><h3 class="littleCard__title">GMS DELUXE</h3></a>
+                    </div>
+                </div>
+                <a class="cardLink" href="#"> Все новые казино </a>
+                <div class="newInfo">
+                    <img class="newInfo__image" src="image/new.jpg" alt="icon">
+                    <div>
+                        <h3 class="newInfo__title">НОВЫЕ БОНУСЫ</h3>
+                        <hr width="200">
+                    </div>
                 </div>
 
             </div>
-            <div class="opionalInfo"><h2>opihjjjjkljhk</h2></div>
+        </div>
+
+        <div class="top">
+
         </div>
     </main>
 </div>
 
+<footer>
+
+</footer>
 
 <script src="scrip.js"></script>
 </body>

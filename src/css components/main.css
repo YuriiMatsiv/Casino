@@ -1,0 +1,61 @@
+
+.content {
+    display: flex;
+    margin-top: 90px;
+    height: 100%;
+}
+
+aside {
+    width: 95px;
+    background-color: var(--lightBlue);
+    height: 100%;
+    position: fixed;
+    top: 90px;
+    left: 0;
+}
+
+
+.sortBlock {
+    width: 95px;
+    height: 95px;
+    border-bottom: 1px solid rgb(30, 45, 71);
+    border-top: 1px solid rgb(57, 72, 99);
+    border-right: 1px solid rgb(57, 72, 99);
+    cursor: pointer;
+}
+
+.sortBlock__img {
+    margin: 21px 35px 0;
+    color: white;
+    height: 25px;
+}
+
+.sortBlock__text {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.aside__block--temporary {
+    display: none;
+}
+
+main {
+    width: 100%;
+    margin-left: 95px;
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 5px 40px 40px;
+
+}
+
+.mainInfo {
+    width: 70%;
+}
+
