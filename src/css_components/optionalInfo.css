@@ -1,14 +1,15 @@
 
 .optionalInfo {
-    width: 25%;
+    width: 27%;
     text-align: right;
 }
 
-.bord__image{
-width: 100%;
+.bord__image {
+    width: 100%;
+    border-radius: 4px;
 }
 
-.newInfo{
+.newInfo {
     display: flex;
     margin-top: 30px;
 
@@ -23,27 +24,28 @@ width: 100%;
     margin: 15px 40px 0 0;
 
 }
+
 .littleCard__wrapper {
     padding-bottom: 25px;
     margin-bottom: 20px;
-   border-bottom: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
 }
 
-.littleCard{
-display: flex;
+.littleCard {
+    display: flex;
     justify-content: left;
     align-items: center;
 }
 
 .littleCard__image {
-height: 43px;
+    height: 43px;
     border-radius: 3px;
     margin-right: 25px;
     text-decoration: none;
 }
 
 .littleCard__link {
-text-decoration: none;
+    text-decoration: none;
 
 }
 
