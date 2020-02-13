@@ -26,8 +26,9 @@ html, body {
 
 @media only screen and (max-width: 1200px) {
     .header {
-    justify-content: space-between;
+        justify-content: space-between;
     }
+
     .under,
     .menu__list {
         display: none;
@@ -82,4 +83,57 @@ html, body {
     .cross .burger__line3 {
         transform: rotate(45deg) translate(-6px, -4px);
     }
+}
+
+@media only screen and (max-width: 1000px) {
+    .optionalInfo {
+        display: none;
+    }
+
+    .mainInfo {
+        width: 100%;
+    }
+
+    .card {
+        min-width: 200px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        flex-direction: column;
+    }
+
+    aside {
+        position: static;
+        width: 100%;
+        height: 40px;
+    }
+
+    .sortBlock {
+        height: 40px;
+        width: 40px;
+    }
+
+    .sortBlock__text {
+        display: none
+    }
+
+
+    .sortBlock__img {
+        margin: 8px 7px 0;
+    }
+
+    main {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .main {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+
 }
