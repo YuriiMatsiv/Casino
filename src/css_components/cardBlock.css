@@ -65,7 +65,11 @@
     text-decoration: none;
     font-size: 13px;
     color: white;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
+
 .cardBlock__link:hover {
     text-decoration: underline;
 }
